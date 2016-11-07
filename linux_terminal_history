@@ -1,0 +1,598 @@
+    1  python
+    2  sudo apt-get install python-pip python-dev
+    3  sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+    4  sudo apt-get update
+    5  sudo apt-get upgrade
+    6  sudo apt-get install python-opencv
+    7  cd /home/ys/ダウンロード
+    8  ls
+    9  cd /home/ys/ダウンロード
+   10  ls
+   11  sudo sh cuda_7.5.18_linux.run
+   12  ls /tmp/c
+   13  ls /tmp/
+   14  /tmp/cuda_install_48365.log
+   15  sudo /tmp/cuda_install_48365.log
+   16  nvidia
+   17  lspci | grep -i nvidia
+   18  cd /home/ys
+   19  ls
+   20  cd DL
+   21  ls
+   22  cd /home
+   23  ls
+   24  cd ys
+   25  ls
+   26  cd /home/ys
+   27  ls
+   28  cd DL
+   29  ls
+   30  sudo sh cuda_7.5.18_linux.run
+   31  why?
+   32  sudo service lightdm stop
+   33  ls
+   34  sudo sh cuda_7.5.18_linux.run
+   35  sudo service lightdm start
+   36  blacklist nouveau
+   37  options nouveau modeset=0
+   38  sudo /sbin/mkinitrd
+   39  sudo sh cuda_7.5.18_linux.run --silent
+   40  sudo nvidia-xconfig
+   41  sudo update-initramfs -u
+   42  sudo sh cuda_7.5.18_linux.run --silent
+   43  sudo nvidia-xconfig
+   44  export PATH=/usr/local/cuda-7.5/bin:$PATH
+   45  export LD_LIBRARY_PATH=/usr/local/cuda-7.5/lib64:$LD_LIBRARY_PATH
+   46  cuda-install-samples-7.5.sh /home/ys
+   47  cd /home/ys/NVIDIA_CUDA-Samples_7.5/5_Simulations/nbody
+   48  cd /home/ys
+   49  ls
+   50  ys
+   51  ls
+   52  cd /home/ys
+   53  ls
+   54  sudo sh cuda_7.5.18_linux.run
+   55  cd /home/ys/DL
+   56  ls
+   57  sudo sh cuda_7.5.18_linux.run
+   58  sudo service lightdm start
+   59  sudo service lightdm stop
+   60  sudo sh cuda_7.5.18_linux.run
+   61  sudo aptitude -y full-upgrade
+   62  sudo aptitude install -y build-essential cmake
+   63  sudo locale-gen ja_JP.UTF-8
+   64  sudo aptitude install -y build-essential cmake
+   65  blacklist nouveau
+   66  blacklist lbm-nouveau
+   67  alias nouveau off
+   68  alias lbm-nouveau off
+   69  option nouveau modeset=0
+   70  sudo update-initramfs -u
+   71  sudo reboot
+   72  sudo service lightdm stop
+   73  cd /home/ys
+   74  sudo sh cuda_7.5.18_linux.run
+   75  ls
+   76  cd DL
+   77  sudo sh cuda_7.5.18_linux.run
+   78  sudo service lightdm start
+   79  sudo service lightdm stop
+   80  sudo sh cuda_7.5.18_linux.run
+   81  sudo service lightdm start
+   82  lsmod | grep nvidia
+   83  lsof /dev/nvidia*
+   84  lsof | grep -i nvidia
+   85  init 3
+   86  sudo init 3
+   87  sudo service lightdm start
+   88  runlevel
+   89  sudo ubuntu-drivers devices
+   90  sudo apt update
+   91  sudo apt upgrade
+   92  sudo apt install linux-generic
+   93  sudo apt install nvidia-cuda-toolkit nvidia-361
+   94  sudo reboot
+   95  cd /home/ys/DL
+   96  sudo sh cuda_7.5.18_linux.run --override
+   97  cd /home/ys
+   98  ls
+   99  cd NVIDIA_CUDA-7.5_Samples/
+  100  ls
+  101  cd 0_Simple/
+  102  ls
+  103  cd ..
+  104  cd 2_Graphics/
+  105  cd Mandelbrot/
+  106  make 
+  107  cd ..
+  108  ls
+  109  cd 0_Simple/
+  110  ls
+  111  cd matrixMul
+  112  make
+  113  sudo emacs -nw /etc/profile.d/cuda.sh
+  114  emacs
+  115  sudo emacs24 -nw /etc/profile.d/cuda.sh
+  116  emacs24
+  117  sudo apt install emacs
+  118  sudo emacs -nw /etc/profile.d/cuda.sh
+  119  sudo emacs -nw /etc/ld.so.conf.d/cuda.conf
+  120  source /etc/profile.d/cuda.conf
+  121  sudo emacs -nw /etc/ld.so.conf.d/cuda.conf
+  122  source /etc/profile.d/cuda.conf
+  123  ls /etc/profile.d
+  124  source /etc/profile.d/cuda.sh
+  125  sudo ldconfig 
+  126  sudo emacs -nw /usr/local/cuda/include/host_config.h
+  127  make
+  128  sudo make
+  129  ls
+  130  cd ..
+  131  ls
+  132  cd //
+  133  cd /home/ys
+  134  ls
+  135  cd NVIDIA_CUDA-7.5_Samples/
+  136  ls
+  137  cd bin
+  138  ls
+  139  cd x86_64/
+  140  ls
+  141  cd linux/
+  142  ls
+  143  cd release/
+  144  ls
+  145  matrixMul
+  146  ./matrixMul
+  147  cd ~
+  148  cd DL
+  149  ls
+  150  tar xvzf cudnn-7.5-linux-x64-v5.0-ga.tgz
+  151  sudo cp cudnn-7.5-linux-x64-v4/cudnn.h /usr/local/cuda/include
+  152  sudo cp cudnn-7.5-linux-x64-v5.0-ga/cudnn.h /usr/local/cuda/include
+  153  ls
+  154  cd cuda
+  155  ls
+  156  sudo cp cuda/include/cudnn.h /usr/local/cuda/include
+  157  sudo cp include/cudnn.h /usr/local/cuda/include
+  158  sudo cp lib64/libcud* /usr/local/cuda/lib64
+  159  sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
+  160  ./configure
+  161  cd ..
+  162  ./configure
+  163  cd ..
+  164  find configure*
+  165  find *configure*
+  166  ls
+  167  DL
+  168  cd DL
+  169  ls
+  170  cuda 
+  171  cd cuda
+  172  ls
+  173  ls include
+  174  ls lib64
+  175  export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.9.0-cp27-none-linux_x86_64.whl
+  176  sudo pip install --upgrade $TF_BINARY_URL
+  177  pip install --upgrade pip
+  178  python
+  179  export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64"
+  180  export CUDA_HOME=/usr/local/cuda
+  181  python
+  182  histry
+  183  history
+  184  history > ~/install_cudatoolkit.txt
+  185  cd /home/ys
+  186  ls
+  187  cat install_cudatoolkit.txt 
+  188  python
+  189  ls
+  190  cd Andow
+  191  cd Undeux
+  192  ls
+  193  python
+  194  python 
+  195  cd Undeux
+  196  ls
+  197  python 
+  198  ls
+  199  cd DL
+  200  ls
+  201  tar xvzf cudnn-7.0-linux-x64-v4.0-prod.tgz 
+  202  sudo cp cuda/include/cudnn.h /usr/local/cuda/include
+  203  sudo cp cuda/lib64/lib* /usr/local/cuda/lib64
+  204  sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
+  205  cd ..
+  206  ls
+  207  cd Undeux
+  208  ls
+  209  python WallNN.py
+  210  python Wall_NN.py 
+  211  export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64
+  212  "
+  213  export CUDA_HOME=/usr/local/cuda
+  214  printenv LD_LIBRARY_PATH
+  215  python Wall_NN.py 
+  216  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  217  python Wall_NN.py 
+  218  cd Undeux
+  219  ls
+  220  cd raw
+  221  ls
+  222  cd ../trn_raw
+  223  ls
+  224  cd ..
+  225  ls
+  226  python Img2half.py
+  227  HalfAnsMaker.py
+  228  python HalfAnsMaker.py
+  229  ls
+  230  python HalfAnsMaker.py
+  231  python Img2half.py
+  232  ls
+  233  python Wall_NN.py
+  234  python Wall_NN.py]
+  235  python Wall_NN.py
+  236  ls
+  237  python Wall_NN.py
+  238  cd /etc/ld.so.conf.d/
+  239  ls
+  240  nvidia-smi
+  241  nvidia-smi --loop=1
+  242  PYTHON
+  243  python
+  244  cd Undeux
+  245  ls
+  246  python
+  247  cd Undeux/
+  248  ls
+  249  python Wall_NN.py 
+  250  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  251  python Wall_NN.py 
+  252  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"D
+  253  python Wall_NN.py 
+  254  sudo cp /home/ys/DL/ldlibpath.conf /etc/ld.os.conf.d/ldlibpath.conf
+  255  sudo cp /home/ys/DL/ldlibpath.conf /etc/ld.os.conf.d
+  256  ls /etc/ld.so.conf.d
+  257  python Wall_NN.py 
+  258  python minst.py 
+  259  sudo apt-get install xrdp lxde
+  260  echo lxsession -s LXDE -e LXDE > ~/.xsession
+  261  sudo vi /etc/xrdp/xrdp.ini
+  262  gsettings set org.gnome.Vino require-encryption false
+  263  sudo service xrdp restart
+  264  cd Undeux
+  265  ls
+  266  python Wall_NN.py
+  267  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"D
+  268  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  269  cd Undeux
+  270  python Wall_NN.py
+  271  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  272  cd Undeux
+  273  python 
+  274  python Wall_NN.py
+  275  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  276  python Rebonr.py
+  277  python Reborn.py
+  278  cd Undeux
+  279  python Reborn.py
+  280  python Wall_NN.py
+  281  cd Undeux
+  282  ls
+  283  python Wall_NN.py
+  284  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  285  python Wall_NN.py
+  286  python testcal.py
+  287  python Wall_NN.py
+  288  python testcal.py
+  289  python minst.py
+  290  python testcal.py
+  291  python Wall_NN.py
+  292  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  293  python Wall_NN.py
+  294  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  295  python Wall_NN.py
+  296  python testcal.py
+  297  python 
+  298  python
+  299  tensorboard --logdir=/tmp/logs/data
+  300  tensorboard --logdir=/tmp/logs
+  301  gnome-screenshot --area
+  302  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  303  python Reborn.py
+  304  cd Undeux
+  305  python Reborn.py
+  306  python testcal.py
+  307  python Reborn.py
+  308  python Wall_NN.py
+  309  python 
+  310  tensorboard --logdir=/tmp/logs
+  311  python
+  312  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  313  cd Undeux
+  314  python Wall_NN.py
+  315  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  316  python Wall_NN.py
+  317  python Reborn.py
+  318  python minst.py
+  319  python minst.py]
+  320  python minst.py
+  321  python Reborn.py
+  322  gnome-screenshot --area
+  323  python Reborn.py
+  324  python Wall_NN.py
+  325  python Reborn.py
+  326  python minst.py
+  327  python Reborn.py
+  328  python Wall_NN.py
+  329  python Reborn.py
+  330  python testcal.py
+  331  python Wall_NN.py
+  332  python Reborn.py
+  333  python
+  334  python testcal.py
+  335  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  336  cd Undeux
+  337  python Wall_NN.py
+  338  python Reborn.py
+  339  ls
+  340  python Reborn.py
+  341  python Wall_NN.py
+  342  python Reborn.py
+  343  python Wall_NN.py
+  344  29066/1500
+  345  python 
+  346  python Reborn.py
+  347  29066/1500
+  348  python Reborn.py
+  349  python Img2half.py
+  350  python Reborn.py
+  351  python Wall_NN.py
+  352  pip install pdb
+  353  sudo pip install pdb
+  354  python 
+  355  python -m pdb Wall_NN.py
+  356  pip install tfdebugger
+  357  sudo pip install tfdebugger
+  358  python
+  359  pip install ipython
+  360  import notebook.nbextensions
+  361  import urllib
+  362  pip install jupyter
+  363  sudo pip install jupyter
+  364  python
+  365  python Wall_NN.py
+  366  nvidia-smi
+  367  kill python
+  368  kill 26825
+  369  nvidia-smi
+  370  cd Undeux
+  371  ls
+  372  ./norm_trial.sh
+  373  sudo ./norm_trial.sh
+  374  chmod 777 norm_trial.sh
+  375  sudo ./norm_trial.sh
+  376  cd Undeux
+  377  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  378  sudo ./norm_trial.sh
+  379  nvidia-smi
+  380  kill 2151
+  381  sudo kill 2151
+  382  nvidia-smi
+  383  tensorboard --logdir=/tmp/logs
+  384  ls
+  385  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  386  python Wall_NN.py
+  387  gnome-screenshot --area
+  388  python Reborn.py
+  389  python
+  390  python Wall_norm12.py
+  391  python Ans_Checker.py
+  392  python 21810*1.20
+  393  python
+  394  python Denoising.py
+  395  python Ans_Checker.py
+  396  python thresh.py
+  397  python Ans_Checker.py
+  398  python Wall_NN.py
+  399  nvidia-smi
+  400  python Wall_NN.py
+  401  nvidia-smi
+  402  python Wall_NN.py
+  403  nvidia-smi
+  404  tensorboard --logdir=/tmp/logs
+  405  python Wall_NN.py
+  406  cd Undeux
+  407  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  408  python Wall_NN.py
+  409  python
+  410  python Wall_NN.py
+  411  python
+  412  python Wall_NN.py
+  413  python Reborn.py
+  414  python Wall_NN.py
+  415  python Reborn.py
+  416  python
+  417  python Reborn.py
+  418  python Wall_NN.py
+  419  gnome-screenshot --area
+  420  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  421  cd DL
+  422  ls
+  423  cd tensorflow-fcn-master/
+  424  ls
+  425  python test_fcn32_vgg.py
+  426  sudo pip install skimage
+  427  sudo pip install scikit-image
+  428  python test_fcn32_vgg.py
+  429  python
+  430  tensorboard --logdir=/tmp/logs
+  431  tensorboard --logdir=/tmp/logs/tem
+  432  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  433  cd Undeux
+  434  python Wall_NN.py
+  435  python Reborn.py
+  436  python AreaFinder.py
+  437  python Ans_Checker.py
+  438  python Wall_NN.py
+  439  python
+  440  cd Undeux
+  441  python
+  442  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  443  cd DL
+  444  cd tensorflow-fcn-master/
+  445  python test_fcn16_vgg.py
+  446  python test_fcn8_vgg.py
+  447  python test_fcn16_vgg.py
+  448  cd /home/ys/Undeux
+  449  ls
+  450  nvidia-smi
+  451  python Wall_NN.py
+  452  nvidia-smi
+  453  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  454  cd /home/ys/Undeux
+  455  python Wall_NN.py
+  456  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  457  cd /home/ys/Undeux
+  458  python Wall_NN.py
+  459  nvidia-smi 
+  460  python Wall_NN.py
+  461  sudo apt-get install libhdf5-dev
+  462  virtualenv ~/virtualenvs/chainer
+  463  sudo apt install virtualenv
+  464  source ~/virtualenvs/chainer/bin/activate
+  465  ls
+  466  virtualenv ~/virtualenvs/chainer
+  467  source ~/virtualenvs/chainer/bin/activate
+  468  pip install -U setuptools pip
+  469  pip install chainer
+  470  ls
+  471  dir
+  472  ls
+  473  ls laplacian.py 
+  474  python laplacian.py ./Ans/rt_0.bmp
+  475  pip install cv2
+  476  python
+  477  python Wall_NN.py
+  478  nvidia-smi
+  479  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  480  cd /home/ys/Undeux
+  481  python Reborn.py
+  482  nvidia-smi
+  483  python Reborn.py
+  484  python laplacian.py 
+  485  python
+  486  sudo pip install --upgrade pip
+  487  sudo pip install --upgrade cython
+  488  sudo apt-get install git subversion unzip
+  489  sudo apt-get install build-essential gfortran
+  490  sudo apt-get install python-virtualenv python-dev
+  491  sudo apt-get install libatlas-base-dev swig
+  492  virtualenv ~/virtualenvs/chainer
+  493  sudo apt-get install libhdf5-dev
+  494  source ~/virtualenvs/chainer/bin/activate
+  495  pip install chainer
+  496  source 
+  497  pip install chainer
+  498  sudo pip install chainer
+  499  CUDA_PATH=/opt/nvidia/cuda pip install chainer
+  500  $CUDA_PATH
+  501  cd Undeux/
+  502  python laplacian.py 
+  503  python laplacian.py ./Ans/rt_0.bmp 
+  504  python laplacian.py ./train/rt_0.bmp 
+  505  python laplacian.py ./denoised/rt_0.bmp 
+  506  python laplacian.py
+  507  python
+  508  python laplacian.py
+  509  python
+  510  python laplacian.py
+  511  nvidia-smi
+  512  cd Undeux/
+  513  nvidia-smi
+  514  python laplacian.py 
+  515  python laplacian.py
+  516  ython laplacian.py
+  517  python laplacian.py
+  518  uname -r
+  519  sudo apt-get install xrdp
+  520  sudo apt-get update xrdp
+  521  sudo apt-get 
+  522  sudo apt-get update
+  523  sudo apt-get upgrade
+  524  sudo apt-get install git
+  525  git clone https://github.com/scarygliders/X11RDP-o-Matic.git
+  526  sudo ./X11rdp-o-matic.sh --justdoit
+  527  cd Undeux/
+  528  python re_train.py
+  529  python
+  530  nvidia-smi
+  531  python
+  532  nvidia-smi
+  533  python 
+  534  nvidia-smi
+  535  python
+  536  ls
+  537  cd Undeux
+  538  ls
+  539  python re_train.py
+  540  nvidia-smi
+  541  cd Undeux
+  542  ls
+  543  python HalfAnsMaker.py
+  544  python Denoising.py
+  545  python thresh.py
+  546  python re_train.py 
+  547  python Denoising.py
+  548  python re_train.py 
+  549  python Denoising.py
+  550  python re_train.py 
+  551  python laplacian.py
+  552  python Denoising.py
+  553  python re_train.py 
+  554  python laplacian.py
+  555  python Denoising.py
+  556  python thresh.py
+  557  python re_train.py 
+  558  python thresh.py
+  559  python re_train.py 
+  560  python thresh.py
+  561  python re_train.py 
+  562  tebesk123
+  563  python re_train.py 
+  564  python Denoising.py
+  565  python re_train.py 
+  566  python laplacian.py
+  567  python thresh.py
+  568  python re_train.py 
+  569  python re_train.py --gpu 0
+  570  sudo apt-get install git
+  571  git clone https://github.com/pfnet/chainer.git
+  572  cd chainer/examples/mnist
+  573  history
+  574  pip install chainer-cuda-deps
+  575  sudo pip install chainer-cuda-deps
+  576  sudo apt-get install libhdf5-dev
+  577  sudo pip install -U setup-tools
+  578  sudo pip install -U cython
+  579  sudo -H pip install -U cython
+  580  pip install --upgrade pip
+  581  export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+  582  python re_train.py 
+  583  cd /home
+  584  ls
+  585  cd ys
+  586  ls
+  587  cd Undeux
+  588  ls
+  589  python re_train.py 
+  590  pip install --upgrade pip
+  591  sudo pip install -U setup-tools
+  592  sudo apt-get install libhdf5-dev
+  593  sudo pip install -U setup-tools
+  594  sudo pip install protobuf
+  595  python re_train.py 
+  596  history
+  597  CUDA_PATH=/usr/local/cuda pip install chainer
+  598  CUDA_PATH=/usr/local/cuda pip upgrade chainer
